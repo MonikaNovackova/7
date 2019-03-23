@@ -12,5 +12,5 @@ def get_main_page():
 
 
 
-if MyApp == '__main__':
+if "MyApp" == '__main__':
     app.run()
