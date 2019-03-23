@@ -12,4 +12,5 @@ def get_main_page():
 
 
 
-app.run(debug=True)
+if __name__MyApp == '__main__':
+    app.run()
