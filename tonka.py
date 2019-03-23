@@ -14,7 +14,7 @@ def send_simple_message(sendTo_mail,sendTo_name):
         "to": [sendTo_mail,sendTo_name],
         "subject":"Hello "+sendTo_name,
  
-        "html":'<b>hello there.</b>  ' + ' <h1>Monika Novackova</h1>'
+        "text":"something"
         })
 
 
