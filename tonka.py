@@ -21,7 +21,7 @@ def send_simple_message(sendTo_mail,sendTo_name):
 def get_research_page():
     return render_template("research.html")
 
-@app.route("/index")
+@app.route("/")
 def get_main_page():
     return render_template("index.html")
 
