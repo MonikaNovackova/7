@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304378-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130304378-1');
+</script>
+
+  <title>Monika Novackova</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet">
+  <meta name="viewport" content="width=device=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+  <script src="{{ url_for('static',filename='js/jquery-3.3.1.min.js') }}"></script>
+
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.css') }}">   
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}"> 
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/jumbotronM.css') }}">   
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/teaching.css') }}">   
+
+
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <header>
+    <div class="container-full-bg">
+      <div class="row">
+        <div class="col-sm-auto">
+          <img  class="MyPic" class='img-responsive' src="https://i.imgur.com/kJnIDsv.jpg?1" align=left width=310>
+                <!-- alternative picture of me:  <img  https://i.imgur.com/DpSZAy7.jpg?2  -->
+        </div>
+        <div  id="hhead" class="col-sm-8">
+            <h1>Monika Novackova</h1>
+            <h2>Welcome to my webpage</h2>
+            <ul>
+              <li><a href="/index"> <b>Home</b>  </a></li>
+              <li><a href="https://drive.google.com/file/d/0BzsVF-i98eGBZ1NRaVFoT2FIOHc/view" target="_blank"> <b>CV.pdf</b> </a></li>
+              <li><a href="/research"> <b>Research</b> </a></li>
+              <li><a href="/teaching"> <b>Teaching</b></a></li>
+              <li><a href="/programming"><b> Programming</b> </a></li>
+            </ul>
+        </div>
+        <div class="sol-sm-auto">
+        </div>
+      </div>
+     </div>
+ </header>
+</div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+            <div class="navbar-header">
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+            </div>
+    </div>
+</nav>
+
+<article>
+  <p>
+I have achieved the status of Associate Fellow of The Higher Education Academy. My corresponding associate fellow certificate can be found <a href="https://drive.google.com/file/d/1IDHRWrS3W0O2bGEyOUnfiXKS4ZXQjJw6/view?usp=sharing" target="_blank"> <b>here</b></a>.
+</p>
+
+
+
+<h3>Modules:</h3>
+
+
+<h4>Climate Change Economic</h4>
+
+<p>Associate tutor, spring term 2015/16. The seminars which I taught covered an Integrated Assessment Model implemented in Excel.</p>
+
+<h4>Analytical Methods for International Finance</h4>
+
+
+<p>Associate tutor, autumn term 2015/16. I taught and prepared materials for seminars focused on basics of Stata (Data Analysis and Statistical Software) and how to use some of its functions for elementary statistical analysis.</p>
+</article>
+
+<article>
+  <div class='jumbotron'>
+        <div class='container' >
+              <div class='row'>
+                    <div class='col-sm-8'>
+                      <h3>Contact details:</h3>
+                    </div>
+              </div>
+              <div class='row'>
+                  <div class='col-sm-4'>
+                        monika.novac@gmail.com    </br>   M.Novackova@sussex.ac.uk
+                  </div>
+                  <div class='col-sm-2'>
+                      <button id='lnkin' class="btn btn-lg btn-linkedin">LinkedIn</button>
+                  </div>
+                  <div  class='col-sm-2'>
+                        <button id='twi' class="btn btn-lg btn-twitter">Twitter</button>
+                  </div>
+                  <div  class='col-sm-2'>
+                        <button id='fb' class="btn btn-lg btn-facebook">Facebook</button>
+                  </div>
+              </div>
+        </div>
+  </div>
+</article>
+
+<script src="{{ url_for('static',filename='js/socialM.js') }}"></script>
+
+
+</body>

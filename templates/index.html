@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304378-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130304378-1');
+</script>
+
+  <title>Monika Novackova</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet">
+
+  <meta name="../viewport" content="width=device=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+  <script src="{{ url_for('static',filename='js/jquery-3.3.1.min.js') }}"></script>
+
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.css') }}">   
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}"> 
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/jumbotronM.css') }}">   
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <header>
+    <div class="container-full-bg">
+      <div class="row">
+        <div class="col-sm-auto">
+          <img  class="MyPic" class='img-responsive' src="https://i.imgur.com/kJnIDsv.jpg?1" align=left width=310>
+                <!-- alternative picture of me:  <img  https://i.imgur.com/DpSZAy7.jpg?2  -->
+        </div>
+        <div id="hhead" class="col-sm-8">
+            <h1>Monika Novackova</h1>
+            <h2>Welcome to my webpage</h2>
+            <ul>
+              <li><a href="/index"> <b>Home</b>  </a></li>
+              <li><a href="https://drive.google.com/file/d/0BzsVF-i98eGBZ1NRaVFoT2FIOHc/view" target="_blank"> <b>CV.pdf</b> </a></li>
+              <li><a href="/research"> <b>Research</b> </a></li>
+              <li><a href="/teaching"> <b>Teaching</b></a></li>
+              <li><a href="/programming" ><b>Programming</b> </a></li>
+            </ul>
+        </div>
+        <div class="sol-sm-auto">
+        </div>
+      </div>
+     </div>
+ </header>
+</div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+            <div class="navbar-header">
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+              <!--    <form class='navbar-form navbar navbar-left pul-right' role="search">
+                        <div class='form-group'>
+                              <input type='text' class='form-control' placeholder="Search">
+                        </div>
+                        <button type='submit class=btn btn-default'>Submit</button> -->
+                  </form>
+            </div>
+    </div>
+</nav>
+
+
+
+<article >
+  <p>Experienced data scientist, statistician and R programmer with a demonstrated history of working in the higher education industry. My main professional interest include data analysis, machine learning, statistics and econometric modelling. I am also interested in Climate Change Economics and Sustainability. In addition, I enjoy coding in R, Python and web-design.</p>
+</article>
+<article>
+  <p>In the present, I work as a Research Fellow in Sustainability at the <a href ="http://www.sussex.ac.uk/geography/" target="_blank"> department of Geography</a>, <a href="https://www.sussex.ac.uk/"target="_blank">University of Sussex</a>. My current research is focused on estimating of effects of droughts in sub-Saharan Africa using economic and econometric methods. My work will contribute to <a href="http://www.sussex.ac.uk/ssrp/" target="_blank"> the Sussex Sustainability Research Programme</a>.</p>
+</article>
+
+<article>
+  <div class='jumbotron'>
+        <div class='container' >
+              <div class='row'>
+                    <div class='col-sm-8'>
+                      <h3>Contact details:</h3>
+                    </div>
+              </div>
+              <div class='row'>
+                  <div class='col-sm-4'>
+                        monika.novac@gmail.com    </br>   M.Novackova@sussex.ac.uk
+                  </div>
+                  <div class='col-sm-2'>
+                      <button id='lnkin' class="btn btn-lg btn-linkedin" style="margin-bottom: 5px;">LinkedIn</button>
+                    </br> <small ><a href="https://sites.google.com/site/monikanovackova71/" target="_blank">My old personal sites</a></small>
+                  </div>
+                  <div  class='col-sm-2'>
+                        <button id='twi' class="btn btn-lg btn-twitter">Twitter</button>
+                  </div>
+                  <div  class='col-sm-2'>
+                        <button id='fb' class="btn btn-lg btn-facebook">Facebook</button>
+                  </div>
+              </div>
+        </div>
+  </div>
+</article>
+<script src="{{ url_for('static',filename='js/socialM.js') }}"></script>
+
+</body>

@@ -1,0 +1,25 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+
+h3 {
+  text-align: left;
+  color: black;
+  margin: 0 0 40px 0;
+  font-size:27px
+}
+
+h4 {
+  text-align: left;
+  color: black;
+  margin: 0 0 -5px 0;
+  font-size:20px;
+}
+
+
+p {
+  color: black;
+  margin: 0 0 40px 0;
+}
